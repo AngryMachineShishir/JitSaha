@@ -1,0 +1,83 @@
+.bgimg{
+	background: url(../img/jit.JPG);
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 650px;
+	position: relative;
+}
+
+.overlay{
+	background: black;
+	opacity: 0.7;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+
+}
+
+.headerset{
+	padding-top: 170px;
+	box-sizing: border-box;
+}
+
+.headerset h2{
+font-size: 42px !important;
+
+}
+
+.card-img{
+	height: 300px;
+	width: 100%;
+}
+#photoAlbum{
+	height: 400px;
+	width: 100%;
+}
+
+#photoAlbum3{
+	height: 400px;
+	width: 100%;
+}
+
+#photoAlbum1{
+	height: 400px;
+	width: 100%;
+}
+
+.headerset h1{
+font-size: 72px;
+font-weight: bold;
+
+}
+.imgsetting{
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+}
+
+@media (max-width: 380px) {
+
+.bgimg{
+	background: url(../img/bg1.jpeg);
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 750px;
+	position: relative;
+}
+
+.headerset h2{
+font-size: 22px !important;
+
+}
+
+.headerset h1{
+font-size: 42px;
+font-weight: bold;
+
+}
+
+
+	
+}
